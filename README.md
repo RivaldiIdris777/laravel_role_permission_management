@@ -177,8 +177,8 @@ Screenshot app feature otp
 MAIL_MAILER=smtp
 MAIL_HOST=sandbox.smtp.mailtrap.io
 MAIL_PORT=2525
-MAIL_USERNAME=ab7d450aa32e15
-MAIL_PASSWORD=50f9a7138ac602
+MAIL_USERNAME=
+MAIL_PASSWORD=
 MAIL_ENCRYPTION=tls
 ```
 - Jalankan program, semoga lancar !!
