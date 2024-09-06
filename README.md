@@ -76,9 +76,9 @@ Website rule permission menggunakan spatie login menggunakan otp
 
 Screenshot app feature otp
 
-![alt text](https://github.com/RivaldiIdris777/laravel_role_permission_management/blob/main/public/upload/sc_app/otp_laravel.png?raw=true)
+![alt text](https://github.com/RivaldiIdris777/laravel_role_permission_management/blob/feature_otp/public/upload/sc_app/otp_laravel.png?raw=true)
 
-![alt text](https://github.com/RivaldiIdris777/laravel_role_permission_management/blob/main/public/upload/sc_app/mailtrapotp_laravel.png?raw=true)
+![alt text](https://github.com/RivaldiIdris777/laravel_role_permission_management/blob/feature_otp/public/upload/sc_app/mailtrapotp_laravel.png?raw=true)
 
 
 ### How to install
