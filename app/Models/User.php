@@ -24,6 +24,8 @@ class User extends Authenticatable
         'email',
         'image_profile',
         'password',
+        'code',
+        'expire_at',
     ];
 
     /**
@@ -72,4 +74,20 @@ class User extends Authenticatable
         }
 
     }// End Method
+
+    // For otp feature
+
+    public function generateCode() {
+        $this->timestamps = false;
+        $this->code = rand(10000, 99999);
+        $this->expire_at = now()->addMinute(20);
+        $this->save();
+    }
+
+    public function restCode() {
+        $this->timestamps = false;
+        $this->code = null;
+        $this->expire_at = null;
+        $this->save();
+    }
 }
